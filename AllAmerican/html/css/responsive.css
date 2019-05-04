@@ -1,0 +1,112 @@
+@media all and (max-width: 1399px)
+{
+	body{font-size: 17px; line-height: 30px; background-size: 100% auto;background-repeat: repeat-y;}
+	.logo-div{max-width: 261px}
+	.inner-wrapper{width: 85%}
+	.menu-wrapper a{font-size: 17px; }
+	header{height: 125px;}
+	.menu-wrapper{margin-top: 15px;}
+
+	.banner-desc-inner{font-size: 25px; line-height: 40px}
+
+	.rihno-icon img{width: 110px}
+	.facebook-icon img{width: 60px}
+
+	.banner-image{height: 700px;}
+	.section-title{font-size: 40px; line-height: 50px}
+	.slider-title{font-size: 30px}
+
+	.call-out-text{font-size: 15px}
+
+	input[type="submit"]{font-size: 25px; line-height: 30px;}
+}
+
+@media all and (max-width: 1024px)
+{
+	.inner-wrapper{width: 90%}
+	.logo-div::after{background-size: 100% 44%;}
+	.icon-img img{width: 100px}
+	.icon-title {word-wrap: break-word;font-size: 14px;line-height: 24px;}
+
+	.about-middle { width: 34%; padding: 0px 20px; line-height: 25px}
+	.about-left{width: 33%;}
+	.about-right{width: 33%;}
+
+	.slide-name{padding: 0 10px; font-size: 15px; line-height: 20px}
+
+	.rihno-icon{top: 180px;}
+	.facebook-icon{top: 300px}
+
+
+
+
+
+
+	
+}
+
+@media all and (max-width: 1023px)
+{
+	.logo-div{max-width: 165px}
+	.menu-right{padding-left: 10px}
+	.menu-wrapper a{padding: 10px 10px 35px 10px}
+	header{height: 80px}
+	.menu-wrapper{margin-top: 10px;}
+	.menu-wrapper li{margin-right: 0}
+	.menu-wrapper a{font-size: 16px; line-height: 16px}
+
+	.logo-div::after{background-size: 100% 52%;}
+
+}
+
+@media all and (max-width: 767px)
+{
+	body{font-size: 15px; line-height: 30px}
+	.section{padding-top: 50px}
+	.menu-wrapper li{width: 100%;}
+	.mobile-menu{display: block;}
+
+	header{ line-height: 20px; height: 90px;}
+	.menu-wrapper{background-color: #38462F; position: absolute;; top: 100%;left:0; margin-top: 0; display: none;box-shadow: 0px 5px 13px -3px #000;}
+	.menu-wrapper a{padding: 10px; text-align: center; border-top: 1px solid #fff; font-weight: normal; }
+	.menu-wrapper li:last-child a{border-bottom: 1px solid #fff}
+	.menu-wrapper a:hover, .menu-wrapper a:focus{background-image: none;}
+
+	.mobile-menu { float: right; margin-top: 29px;}
+	.mobile-menu img{width: 40px; cursor: pointer;}
+
+	.logo-div::after{display: none;}
+
+	.logo-left{width: 50%;}
+	.logo-left img{width: 90px; margin-top: 5px}
+	.menu-right{width: 50%;}
+
+	.banner-image{height: 400px}
+	.rihno-icon{top: 125px;}
+	.rihno-icon img{width: 60px}
+	.facebook-icon{top: 180px}
+	.facebook-icon img{width: 25px}
+	.banner-desc-inner {font-size: 15px; line-height: 25px;padding: 15px 10px 21px 10px;width: 80%;}
+	.banner-desc{bottom: 25px}
+
+	.about-middle { width: 100%; padding: 0; line-height: 25px; margin: 30px 0;}
+	.about-left{width: 100%;}
+	.about-right{width: 100%;}
+	.desc-img{width: 100%; max-width: 100%}
+
+	.icon-block{width: 100%; margin-bottom: 20px}
+
+	.form-left{width: 100%}
+	.map-right{width: 100%; margin-top: 30px}
+	.icon-img img{width: 70px}
+
+	.vbox-next span, .vbox-prev span{width: 30px; height: 30px; border: 5px solid transparent;}
+
+	.section-title {font-size: 30px;line-height: 40px;}
+	.slider-title{font-size: 24px}
+
+	input[type="submit"]{font-size: 25px; line-height: 30px;}
+
+
+
+}
